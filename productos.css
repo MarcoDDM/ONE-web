@@ -83,6 +83,10 @@ footer {
     background-image: url("imagenes/bg.jpg");
     padding: 20px 0;
     text-align: center;
+}
+
+.copyright {
     color: white;
-    padding: 40px;
+    font-size: 13px;
+    margin: 20px;
 }
