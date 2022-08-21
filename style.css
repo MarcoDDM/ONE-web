@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -139,7 +143,7 @@ table{
     margin: 40px;
 }
 
-thead{
+thead {
     background: #555555;
     color: white;
     font-weight: bold;
@@ -148,4 +152,40 @@ thead{
 td, th {
     padding: 8px 15px;
     border: 1px solid #000000;
+}
+
+/*CSS para home*/
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin-right: 20px;
+}
+
+.imagenDiferenciales {
+    width: 60%;
+    margin: 0 auto;
 }
